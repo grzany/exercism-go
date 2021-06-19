@@ -1,4 +1,4 @@
-package perfect
+``package perfect
 
 // Source: exercism/problem-specifications
 // Commit: d7c0227 perfect-numbers: Apply new "input" policy
