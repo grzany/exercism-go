@@ -22,10 +22,10 @@ func Build(records []Record) (*Node, error) {
 	var n *Node
 	for i, r := range records {
 		// root element
-		if records[i] == 0 {
-			n := &Node {
-				ID: i,
-				Children: nil 
+		if records[i] == nil {
+			n := &Node{
+				ID:       i,
+				Children: nil,
 			}
 		}
 		n := &Node{
